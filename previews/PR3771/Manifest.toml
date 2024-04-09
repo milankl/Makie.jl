@@ -717,10 +717,10 @@ version = "0.15.1"
     Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
 
 [[deps.IntervalArithmetic]]
-deps = ["CRlibm_jll", "RoundingEmulator"]
-git-tree-sha1 = "552505ed27d2a90ff04c15b0ecf4634e0ab5547b"
+deps = ["CRlibm_jll", "MacroTools", "RoundingEmulator"]
+git-tree-sha1 = "a066535c05e21f8e18b18e759a5d790b7a706399"
 uuid = "d1acc4aa-44c8-5952-acd4-ba5d80a2a253"
-version = "0.22.9"
+version = "0.22.10"
 weakdeps = ["DiffRules", "ForwardDiff", "RecipesBase"]
 
     [deps.IntervalArithmetic.extensions]
